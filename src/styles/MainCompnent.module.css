@@ -1,0 +1,427 @@
+.maincompnent {
+  padding: 46px 128px;
+}
+.maincompnent .namebox {
+  display: flex;
+  padding: 19px 24px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  align-items: center;
+}
+.maincompnent .namebox .state .bigname {
+  font-size: 18px;
+  letter-spacing: 0.27px;
+  color: #3c3c3c;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  opacity: 1;
+}
+.maincompnent .namebox .state p {
+  letter-spacing: 0.21px;
+  color: #3c3c3c;
+  opacity: 0.8;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.maincompnent .namebox .login {
+  font-weight: bold;
+}
+.maincompnent .namebox .login p {
+  letter-spacing: 0.24px;
+  color: #3c3c3c;
+  opacity: 0.8;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+.maincompnent .namebox .login p span {
+  letter-spacing: 0.24px;
+  color: #009aac;
+  opacity: 1;
+  text-decoration: underline;
+  padding: 5px;
+}
+.maincompnent .numbers {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 40px;
+  justify-content: space-between;
+  display: flex;
+}
+.maincompnent .numbers .Tasksbox {
+  display: flex;
+  align-items: center;
+}
+.maincompnent .numbers .accnumbers {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  opacity: 1;
+  display: flex;
+  padding: 17px 24px;
+  align-items: center;
+  width: 36vw;
+}
+.maincompnent .numbers .accnumbers .newaccnumbers {
+  letter-spacing: 0.72px;
+  color: #009aac;
+  opacity: 1;
+  font-size: 48px;
+  margin-right: 25px;
+}
+.maincompnent .numbers .accnumbers .newaccnumbers_dis {
+  margin-right: 55px;
+}
+.maincompnent .numbers .accnumbers .newaccnumbers_dis .bignumber {
+  letter-spacing: 0.24px;
+  color: #3c3c3c;
+  opacity: 1;
+  font-size: 16px;
+  font-weight: bold;
+}
+.maincompnent .numbers .accnumbers .newaccnumbers_dis p {
+  letter-spacing: 0.21px;
+  color: #3c3c3c;
+  opacity: 0.6;
+  font-size: 14px;
+  font-weight: bold;
+}
+.maincompnent .numbers .accnumbers .increasednumbers {
+  letter-spacing: 0.72px;
+  color: #009aac;
+  opacity: 1;
+  font-size: 48px;
+  margin-right: 25px;
+}
+.maincompnent .numbers .accnumbers .increasednumbers_dis .bignumber {
+  letter-spacing: 0.24px;
+  color: #3c3c3c;
+  opacity: 1;
+  font-size: 16px;
+  font-weight: bold;
+}
+.maincompnent .numbers .accnumbers .increasednumbers_dis p {
+  letter-spacing: 0.21px;
+  color: #3c3c3c;
+  opacity: 0.6;
+  font-size: 14px;
+  font-weight: bold;
+}
+.maincompnent .numbers .Tasks {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  opacity: 1;
+  display: flex;
+  padding: 17px 24px;
+  align-items: center;
+  width: 49vw;
+  justify-content: space-around;
+}
+.maincompnent .numbers .Tasks .TasksPending {
+  letter-spacing: 0.72px;
+  color: #3c3c3c;
+  opacity: 1;
+  font-size: 48px;
+  margin-right: 16px;
+}
+.maincompnent .numbers .Tasks .TasksPending_dis .bignumber {
+  letter-spacing: 0.24px;
+  color: #3c3c3c;
+  opacity: 1;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.maincompnent .numbers .Tasks .TasksPending_dis p {
+  letter-spacing: 0.21px;
+  color: #3c3c3c;
+  opacity: 0.6;
+  font-size: 14px;
+  font-weight: bold;
+}
+.maincompnent .numbers .Tasks .Notifications {
+  letter-spacing: 0.72px;
+  color: #3c3c3c;
+  opacity: 1;
+  font-size: 48px;
+  margin-right: 16px;
+}
+.maincompnent .numbers .Tasks .Notifications_dis .bignumber {
+  letter-spacing: 0.24px;
+  color: #3c3c3c;
+  opacity: 1;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.maincompnent .numbers .Tasks .Notifications_dis p {
+  letter-spacing: 0.21px;
+  color: #3c3c3c;
+  opacity: 0.6;
+  font-size: 14px;
+  font-weight: bold;
+}
+.maincompnent .numbers .Tasks .Requests {
+  letter-spacing: 0.72px;
+  color: #3c3c3c;
+  opacity: 1;
+  font-size: 48px;
+  margin-right: 16px;
+}
+.maincompnent .numbers .Tasks .Requests_dis .bignumber {
+  letter-spacing: 0.24px;
+  color: #3c3c3c;
+  opacity: 1;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.maincompnent .numbers .Tasks .Requests_dis p {
+  letter-spacing: 0.21px;
+  color: #3c3c3c;
+  opacity: 0.6;
+  font-size: 14px;
+  font-weight: bold;
+}
+.maincompnent .Trafficchart {
+  padding: 19px 24px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 40px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+}
+.maincompnent .Trafficchart p {
+  letter-spacing: 0.3px;
+  color: #3c3c3c;
+  opacity: 1;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+.maincompnent .Portal {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.maincompnent .Portal .map {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  padding: 19px 24px;
+  font-family: "Open Sans", sans-serif;
+  width: 42vw;
+}
+.maincompnent .Portal .map p {
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  color: #3c3c3c;
+  opacity: 1;
+  margin-bottom: 23px;
+  font-size: 20px;
+}
+.maincompnent .Portal .map .mapbox {
+  display: flex;
+  justify-content: space-between;
+}
+.maincompnent .Portal .map .mapbox .mapimg {
+  width: 517px;
+  height: 220px;
+}
+.maincompnent .Portal .map .mapdis .mapdis_box .mapdis_box__big {
+  letter-spacing: 0.72px;
+  color: #009aac;
+  opacity: 1;
+  font-size: 48px;
+  font-weight: 100;
+  margin-bottom: 4px;
+}
+.maincompnent .Portal .map .mapdis .mapdis_box .mapdis_box__mid {
+  letter-spacing: 0.27px;
+  color: #242d3c;
+  opacity: 1;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.maincompnent .Portal .map .mapdis .mapdis_box .mapdis_box__sm {
+  letter-spacing: 0.21px;
+  color: #242d3c;
+  opacity: 0.7;
+  font-size: 14px;
+  font-weight: 100;
+}
+.maincompnent .Portal .map .mapdis .mapdis_box .mapdis_box__viwe {
+  letter-spacing: 0px;
+  color: #009aac;
+  opacity: 1;
+  font-size: 18px;
+}
+.maincompnent .Portal .map .mapdis .mapdis_box .mapdis_box__viwe span {
+  border-bottom: 2px solid #009aac;
+}
+.maincompnent .Portal .assets .yourassets {
+  font-family: "Open Sans", sans-serif;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  display: flex;
+  width: 42vw;
+  justify-content: space-between;
+}
+.maincompnent .Portal .assets .yourassets .assetschart {
+  padding: 19px 24px;
+  align-items: center;
+}
+.maincompnent .Portal .assets .yourassets .assetschart .assetschart_big {
+  letter-spacing: 0.3px;
+  color: #3c3c3c;
+  opacity: 1;
+  font-size: 20px;
+  font-weight: bold;
+}
+.maincompnent .Portal .assets .yourassets .assetschart .assetschart_small {
+  letter-spacing: 0.21px;
+  color: #3c3c3c;
+  opacity: 1;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.maincompnent .Portal .assets .yourassets .assetschart .assetschart_small span {
+  font-weight: bold;
+}
+.maincompnent .Portal .assets .yourassets .assetsnumb {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.maincompnent .Portal .assets .yourassets .assetsnumb .assetsnumb__cont .assetsnumb_big {
+  letter-spacing: 0.72px;
+  align-items: center;
+  color: #242d3c;
+  opacity: 1;
+  font-size: 48px;
+}
+.maincompnent .Portal .assets .yourassets .assetsnumb .assetsnumb__cont .assetsnumb_small {
+  letter-spacing: 0.27px;
+  align-items: center;
+  color: #242d3c;
+  opacity: 1;
+  font-size: 18px;
+}
+.maincompnent .Portal .assets .assetsuplode {
+  padding: 0px;
+  background-color: #f7f7f7;
+  display: inline-grid;
+  justify-items: center;
+}
+.maincompnent .Portal .assets .assetsuplode button {
+  width: 116px;
+  height: 42px;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  border: 2px solid #3c3c3c;
+  font-weight: bold;
+  font-size: 16px;
+  color: #3c3c3c;
+}
+.maincompnent .Portal .assets .assetsuplode p {
+  padding: 0px 20px;
+  text-align: center;
+}
+.maincompnent .Portal .assets .assetsuplode .assetsuplodeimg {
+  margin-top: 40px;
+}
+.maincompnent .Portal .viweassets {
+  margin-top: 20px;
+}
+.maincompnent .Portal .viweassets .viweassets_box {
+  font-family: "Open Sans", sans-serif;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  display: flex;
+  padding: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.maincompnent .Portal .viweassets .viweassets_box .viweassets_Assetsnumber {
+  letter-spacing: 0.6px;
+  color: #009aac;
+  opacity: 1;
+  font-size: 40px;
+}
+.maincompnent .Portal .viweassets .viweassets_box .viweassets_Assetsp {
+  letter-spacing: 0.3px;
+  color: #242d3c;
+  opacity: 1;
+  font-size: 20px;
+  font-weight: bold;
+}
+.maincompnent .Portal .viweassets .viweassets_box .viweassets_Viewp {
+  letter-spacing: 0px;
+  color: #009aac;
+  opacity: 1;
+  font-size: 18px;
+  font-weight: bold;
+}
+.maincompnent .Portal .viweassets .viweassets_box .viweassets_Viewp span {
+  border-bottom: 2px solid #009aac;
+}
+.maincompnent .tables {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.maincompnent .tables .tables_search {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 40px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  width: 42vw;
+}
+.maincompnent .tables .tables_search .discrption {
+  display: flex;
+  justify-content: space-between;
+  padding: 19px 24px;
+}
+.maincompnent .tables .tables_search .discrption p {
+  letter-spacing: 0.27px;
+  color: #242d3c;
+  opacity: 1;
+  font-size: 18px;
+  font-weight: bold;
+}
+.maincompnent .tables .tables_search .discrption select {
+  background-color: #f7f7f7;
+  border: 0px;
+  padding: 5px;
+  letter-spacing: 0.18px;
+  color: #242d3c;
+  opacity: 1;
+  font-size: 12px;
+  font-weight: bold;
+  width: 140px;
+}
+.maincompnent .tables .tables_download {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 40px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  width: 42vw;
+}
+.maincompnent .tables .tables_download .discrption {
+  padding: 19px 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.maincompnent .tables .tables_download .discrption p {
+  letter-spacing: 0.27px;
+  color: #242d3c;
+  opacity: 1;
+  font-size: 18px;
+  font-weight: bold;
+}
+.maincompnent .tables .tables_download .discrption select {
+  background-color: #f7f7f7;
+  border: 0px;
+  padding: 5px;
+  letter-spacing: 0.18px;
+  color: #242d3c;
+  opacity: 1;
+  font-size: 12px;
+  font-weight: bold;
+  width: 140px;
+}/*# sourceMappingURL=MainCompnent.module.css.map */
